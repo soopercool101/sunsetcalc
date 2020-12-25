@@ -5,12 +5,17 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <head>
         <title>Sunset Calculator</title>
     </head>
     <body>
         <div>Test!</div>
-        <button id="myButtonId" onclick="show(this)">Click me!</button>
+        <button id="button" onclick="show(this)">Click me!</button>
+        <div class="flatpickr", id="flatpickr">
+            <input type="text" placeholder="Select Date.." data-input> <!-- input is mandatory -->
+        </div>
     </body>
     <script src="main.js"></script>
 </html>
