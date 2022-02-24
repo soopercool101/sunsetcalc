@@ -1,0 +1,29 @@
+{
+  "name": "sunsetcalc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "flatpickr": "^4.6.8",
+    "lodash": "^4.17.21",
+    "solar-calc": "^1.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soopercool101/sunsetcalc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soopercool101/sunsetcalc/issues"
+  },
+  "homepage": "https://github.com/soopercool101/sunsetcalc#readme"
+}
