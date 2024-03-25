@@ -14,8 +14,8 @@ function change() {
     var solar = new SolarCalc(date, 47.610378, -122.200676);
     var sunset = solar.sunset;
     const MS_PER_MINUTE = 60000;
-	document.getElementById("Before1").innerHTML="2 hr 30 before : " + timeFormat(new Date(sunset - 150 * MS_PER_MINUTE));
-	document.getElementById("Before2").innerHTML="2 hr before : " + timeFormat(new Date(sunset - 120 * MS_PER_MINUTE));
+    document.getElementById("Before1").innerHTML="2 hr 30 before : " + timeFormat(new Date(sunset - 150 * MS_PER_MINUTE));
+    document.getElementById("Before2").innerHTML="2 hr before : " + timeFormat(new Date(sunset - 120 * MS_PER_MINUTE));
     document.getElementById("Sunset").innerHTML="Sunset : " + timeFormat(sunset);
 }
 
