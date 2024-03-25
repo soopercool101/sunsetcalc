@@ -14,16 +14,8 @@ function change() {
     var solar = new SolarCalc(date, 47.610378, -122.200676);
     var sunset = solar.sunset;
     const MS_PER_MINUTE = 60000;
-    if(date.getMonth() >= 4 && date.getMonth() <= 8)
-    {
-        document.getElementById("Before1").innerHTML="2 hr before : " + timeFormat(new Date(sunset - 120 * MS_PER_MINUTE));
-        document.getElementById("Before2").innerHTML="1 hr 30 before : " + timeFormat(new Date(sunset - 90 * MS_PER_MINUTE));
-    }
-    else
-    {
-        document.getElementById("Before1").innerHTML="2 hr 15 min before : " + timeFormat(new Date(sunset - 135 * MS_PER_MINUTE));
-        document.getElementById("Before2").innerHTML="1 hr 45 before : " + timeFormat(new Date(sunset - 105 * MS_PER_MINUTE));
-    }
+	document.getElementById("Before1").innerHTML="2 hr 30 before : " + timeFormat(new Date(sunset - 150 * MS_PER_MINUTE));
+	document.getElementById("Before2").innerHTML="2 hr before : " + timeFormat(new Date(sunset - 120 * MS_PER_MINUTE));
     document.getElementById("Sunset").innerHTML="Sunset : " + timeFormat(sunset);
 }
 
